@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flippy - Your Page Flipping Companion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="container">
+        <h1 class = "title">Flippy</h1>
+        <p class = "subtext"> Your automatic page flipping companion</p>
+        <label for="pdfInput" id="custom-button">
+            Choose File
+        </label>
+        <input type="file" id="pdfInput" accept=".pdf" hidden>
+        <span id="custom-text">No file chosen, yet.</span>
+        <div id="pdfNavigation">
+            <div id="prevPage" class="arrow" onclick="prevPage()">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div id="pdfContainer">
+            </div>
+            <div id="nextPage" class="arrow" onclick="nextPage()">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+        <div class="subtext1">
+            <p>Flippy will automatically flip your music pages for you,</p>
+            <p>listening to when you play the last notes on the page,</p>
+            <p>and then Flippy conveniently flips the page for you!</p>
+        </div>
+        
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

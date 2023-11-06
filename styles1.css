@@ -1,0 +1,88 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4efeb;
+    color: #fff;
+}
+
+#container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f4efeb; /* Light beige */
+    color: #f4efeb; /* Almost black */
+    padding: 20px;
+}
+
+#pdfNavigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prevPage, #nextPage {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 35px;
+    color: #beab9c; /* Beige */
+}
+
+#fullscreenButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#custom-button {
+    display: inline-block;
+    background-color: #283635; /* Deep forest green */
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+
+#custom-text {
+    display: block; /* Change display to block to move it to a new line */
+    margin-top: px;
+    font-size: 16px;
+    color: #121e26; /* Almost black */
+}
+
+.title {
+    font-size: 60px;
+    color: #121e26; /* Almost black */
+}
+
+.subtext {
+    padding-bottom: 20px;
+    padding-top: 0px;
+    color: #121e26; /* Almost black */
+}
+
+.title, .subtext {
+    margin: 10px;
+}
+
+.subtext1 {
+    color: #121e26; /* Almost black */
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.subtext1 p {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
